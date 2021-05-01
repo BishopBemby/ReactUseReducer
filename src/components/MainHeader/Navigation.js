@@ -6,6 +6,7 @@ import AuthContext from '../../context/auth-context';
 
 const Navigation = () => {
   const ctx = useContext(AuthContext);
+
   return (
     <nav className={classes.nav}>
       <ul>
@@ -50,7 +51,6 @@ const Navigation = () => {
     // </nav>)
     // }}</AuthContext.Consumer>
         
-  ;
 };
 
 export default Navigation;
